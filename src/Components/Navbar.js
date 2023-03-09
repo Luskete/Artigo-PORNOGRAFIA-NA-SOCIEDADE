@@ -11,16 +11,17 @@ export default class Navbar extends Component {
 
     <div className="App">
 
-        <h1 id="titulo">
-            PORNOGRAFIA E MALEFICIOS
-        </h1>
+      <h1 id="titulo">
+        PORNOGRAFIA E MALEFICIOS
+      </h1>
 
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          
+            
           <ul className="nav-items">
+
             <li className="nav-item">
-            <Link
+              <Link
                 activeClass="active"
                 to="section1"
                 spy={true}
@@ -31,8 +32,9 @@ export default class Navbar extends Component {
                 SOCIAL
               </Link>
             </li>
+
             <li className="nav-item">
-                <Link
+              <Link
                 activeClass="active"
                 to="section2"
                 spy={true}
@@ -41,9 +43,11 @@ export default class Navbar extends Component {
                 duration={500}
               >
                 MENTAL
-              </Link></li>
+              </Link>
+            </li>
+
             <li className="nav-item">
-            <Link
+              <Link
                 activeClass="active"
                 to="section3"
                 spy={true}
@@ -51,11 +55,12 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-               HORMONAL
+                HORMONAL
               </Link>
             </li>
+
             <li className="nav-item">
-            <Link
+              <Link
                 activeClass="active"
                 to="section4"
                 spy={true}
@@ -66,8 +71,9 @@ export default class Navbar extends Component {
                 INDUSTRIA
               </Link>
             </li>
+
             <li className="nav-item">
-            <Link
+              <Link
                 activeClass="active"
                 to="section5"
                 spy={true}
@@ -78,10 +84,11 @@ export default class Navbar extends Component {
                 SOBRE
               </Link>
             </li>
+
           </ul>
         </div>
       </nav>
     </div>
-    );
-  }
+  );
+ }
 }
