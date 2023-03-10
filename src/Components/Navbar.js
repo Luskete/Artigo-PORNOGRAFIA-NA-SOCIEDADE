@@ -9,7 +9,7 @@ export default class Navbar extends Component {
     render() {
     return (
 
-    <div className="App">
+    <div className="App" id="head">
 
       <h1 id="titulo">
         PORNOGRAFIA E MALEFICIOS
@@ -76,6 +76,19 @@ export default class Navbar extends Component {
               <Link
                 activeClass="active"
                 to="section5"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                REFERÊNCIAS
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section6"
                 spy={true}
                 smooth={true}
                 offset={-70}

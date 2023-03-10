@@ -36,10 +36,16 @@ class App extends Component {
           id="section4"
         />
         <Section
-          title="SOBRE"
+          title="REFERÊNCIAS"
           subtitle={dummyText}
           dark={true}
           id="section5"
+        />
+        <Section
+          title="SOBRE NÓS"
+          sobre={dummyText}
+          dark={false}
+          id="section6"
         />
       </div>
   );

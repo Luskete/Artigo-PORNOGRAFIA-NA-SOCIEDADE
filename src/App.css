@@ -78,5 +78,14 @@ a{
 /* ----------- CSS DO NOSSO GRUPO ---------- */
 
 #head{
-  margin: 0;
+  display: contents;
+  position: fixed;
+}
+
+#sobre{
+  margin-top: 1rem;
+}
+
+p{
+  text-align: justify;
 }
