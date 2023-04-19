@@ -29,7 +29,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                SOCIAL
+                INTRODUÇÃO
               </Link>
             </li>
 
@@ -42,7 +42,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                MENTAL
+                JUSTIFICATIVA
               </Link>
             </li>
 
@@ -55,7 +55,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                HORMONAL
+                METODOLOGIA
               </Link>
             </li>
 
@@ -68,7 +68,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                INDUSTRIA
+                DESENVOLVIMENTO
               </Link>
             </li>
 
